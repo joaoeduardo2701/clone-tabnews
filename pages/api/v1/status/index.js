@@ -1,7 +1,7 @@
-function status(request, response){
+function status(request, response) {
   response.status(200).json({
-    "Nome": "João"
-  })
+    Nome: "João",
+  });
 }
 
 export default status;
